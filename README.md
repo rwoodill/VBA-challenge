@@ -1,6 +1,8 @@
 # VBA-challenge
 
-authored by Rachel Woodill
+Authored by Rachel Woodill
+
+Instructions:
  
 Create a script that loops through all the stocks for one year and outputs the following information:
 
