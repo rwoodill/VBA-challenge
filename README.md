@@ -1,29 +1,38 @@
 # VBA-challenge
 
 Authored by Rachel Woodill
+File Locations:
+	VBA-challenge > Starter > Resources
+	-Contains the excel files from the starter with code
+	
+	VBA-challenge
+	-Contains screenshots of results (does not show full result)
+	-Contains script file with code (called StockAnalysis.bas)
+
+#--------------------------------------------------
 
 Instructions:
  
 Create a script that loops through all the stocks for one year and outputs the following information:
 
-The ticker symbol
+	x The ticker symbol
 
-Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
+	x Yearly change from the opening price at the beginning of a given year to the closing price at the end of that year.
 
-The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
+	x The percentage change from the opening price at the beginning of a given year to the closing price at the end of that year.
 
-The total stock volume of the stock. The result should match the following image:
+	x The total stock volume of the stock. The result should match the following image:
 
 Moderate solution
 
-Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". The solution should match the following image:
+	x Add functionality to your script to return the stock with the "Greatest % increase", "Greatest % decrease", and "Greatest total volume". The solution should match the following image:
 
 Hard solution
 
-Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every year) at once.
+	x Make the appropriate adjustments to your VBA script to enable it to run on every worksheet (that is, every year) at once.
 
 NOTE
-Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
+	x Make sure to use conditional formatting that will highlight positive change in green and negative change in red.
 
 Other Considerations
 Use the sheet alphabetical_testing.xlsx while developing your code. This dataset is smaller and will allow you to test faster. Your code should run on this file in under 3 to 5 minutes.
