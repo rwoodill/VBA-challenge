@@ -1,7 +1,11 @@
 # VBA-challenge
 
 Authored by Rachel Woodill
+
+#--------------------------------------------------
+
 File Locations:
+
 	VBA-challenge > Starter > Resources
 	-Contains the excel files from the starter with code
 	
