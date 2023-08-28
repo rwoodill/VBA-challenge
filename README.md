@@ -1,6 +1,7 @@
 # VBA-challenge
 
 Authored by Rachel Woodill
+
 #--------------------------------------------------
 References:
 	how to format and general ideas - https://github.com/DataTell/VBA-Challenge/blob/master/VBAStocks/VBAStocksScript.bas
@@ -15,6 +16,7 @@ File Locations:
 	VBA-challenge
 	-Contains screenshots of results (does not show full result)
 	-Contains script file with code (called StockAnalysis.bas)
+
 
 #--------------------------------------------------
 
