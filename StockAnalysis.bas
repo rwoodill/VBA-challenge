@@ -57,14 +57,16 @@ Sub StockAnalysis()
                     ws.Cells(TickerCount, 10).Interior.ColorIndex = 4
                 End If
                 
+                'Calculate percent change'
                 If ws.Cells(j, 3).Value <> 0 Then
+                    'Calculation'
                     PercentChange = ((ws.Cells(i, 6).Value - ws.Cells(j, 3).Value) / ws.Cells(j, 3).Value)
                     'Percent formating'
                     ws.Cells(TickerCount, 11).Value = Format(PercentChange, "Percent")
                 Else
                     ws.Cells(TickerCount, 11).Value = Format(0, "Percent")
                 End If
-                
+           
                 'Calculate and record total volume in col 12'
                 ws.Cells(TickerCount, 12).Value = WorksheetFunction.Sum(Range(ws.Cells(j, 7), ws.Cells(i, 7)))
                 
@@ -72,6 +74,15 @@ Sub StockAnalysis()
                 TickerCount = TickerCount + 1
                 'New start row for results of code'
                 j = i + 1
+            End If
+            
+            'Conditional formatting - percent change'
+            If ws.Cells(i, 11).Value >= 0 Then
+                'Colour green'
+                ws.Cells(i, 11).Interior.ColorIndex = 4
+            ElseIf ws.Cells(i, 11).Value < 0 Then
+                'Colour - red'
+                ws.Cells(i, 11).Interior.ColorIndex = 3
             End If
         Next i
         
